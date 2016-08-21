@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-#
+# Autor: Jhones Petter
+# Data: 20/08/2016
 #
 
 if [ $# == 0 ] || [ $# == 1 ]; then
