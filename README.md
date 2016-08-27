@@ -1,12 +1,16 @@
-# zabbix-apc-ups-rs1500
-
 Monitorar Nobreak APC UPS RS 1500 utilizando Linux e serviço 'apcupsd'.
+=====
 
 Itens calculados:
+=====
+<pre><code>
     watts.disponivel  : Potencia disponivel
     watts.uso         : Potencia em uso
+</code></pre>
 
 Itens:
+=====
+<pre><code>
 Back-UPS RS 1500 (USB)
      LINEV     : Current input line voltage
      LOADPCT   : Percentage of UPS load capacity used
@@ -40,3 +44,4 @@ Back-UPS RS 1500 (USB)
      FIRMWARE  : UPS firmware version
      APCMODEL  : APC model information
      * presence dependant on USB firmware version.
+</code></pre>
